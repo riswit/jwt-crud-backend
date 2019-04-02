@@ -5,6 +5,7 @@
     <file url="file://$PROJECT_DIR$/JwtAuthentication" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/bundler" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common/common-app" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common/common-data" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/crud" charset="UTF-8" />
   </component>

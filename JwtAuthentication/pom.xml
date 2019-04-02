@@ -13,6 +13,19 @@
     <name>JWTCRUDBACKEND :: JWTAUTHENTICATION</name>
     <packaging>war</packaging>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.riswit.tutorials.jca</groupId>
+            <artifactId>common-app</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.riswit.tutorials.jca</groupId>
+            <artifactId>common-data</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
     <build>
         <plugins>
             <plugin>
