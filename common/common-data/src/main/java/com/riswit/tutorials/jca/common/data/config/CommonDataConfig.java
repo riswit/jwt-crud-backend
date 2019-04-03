@@ -1,4 +1,4 @@
-package com.riswit.tutorials.jca.common.data;
+package com.riswit.tutorials.jca.common.data.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
