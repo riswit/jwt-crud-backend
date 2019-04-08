@@ -10,10 +10,10 @@
     <version>1.0-SNAPSHOT</version>
     <name>JWTCRUDBACKEND</name>
     <modules>
+        <module>common</module>
         <module>JwtAuthentication</module>
         <module>crud</module>
         <module>bundler</module>
-        <module>common</module>
     </modules>
 
     <parent>
@@ -34,6 +34,8 @@
         <jackson.version>2.9.6</jackson.version>
         <spring-ws.version>3.0.4.RELEASE</spring-ws.version>
         <slf4j.version>1.7.25</slf4j.version>
+
+        <!--<start-class>com.riswit.tutorials.jca.jwtauth.SpringBootJwtAuthenticationApplication</start-class>-->
     </properties>
 
     <build>

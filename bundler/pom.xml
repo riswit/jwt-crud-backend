@@ -34,6 +34,7 @@
                 <artifactId>maven-ear-plugin</artifactId>
                 <version>3.0.1</version>
                 <configuration>
+                    <generateApplicationXml>false</generateApplicationXml>
                     <includeLibInApplicationXml>true</includeLibInApplicationXml>
                     <defaultLibBundleDir>lib/</defaultLibBundleDir>
                     <skinnyWars>true</skinnyWars>
