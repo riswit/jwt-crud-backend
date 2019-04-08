@@ -1,10 +1,10 @@
 F:\Tutorials\Riswit\jwtCRUD\backend\JwtCrudBackend\JwtAuthentication\src\main\java\com\riswit\tutorials\jca\jwtauth\message\request\SignUpForm.java
 F:\Tutorials\Riswit\jwtCRUD\backend\JwtCrudBackend\JwtAuthentication\src\main\java\com\riswit\tutorials\jca\jwtauth\security\WebSecurityConfig.java
-F:\Tutorials\Riswit\jwtCRUD\backend\JwtCrudBackend\JwtAuthentication\src\main\java\com\riswit\tutorials\jca\jwtauth\config\JwtAuthConfig.java
 F:\Tutorials\Riswit\jwtCRUD\backend\JwtCrudBackend\JwtAuthentication\src\main\java\com\riswit\tutorials\jca\jwtauth\model\RoleName.java
 F:\Tutorials\Riswit\jwtCRUD\backend\JwtCrudBackend\JwtAuthentication\src\main\java\com\riswit\tutorials\jca\jwtauth\security\services\UserPrinciple.java
 F:\Tutorials\Riswit\jwtCRUD\backend\JwtCrudBackend\JwtAuthentication\src\main\java\com\riswit\tutorials\jca\jwtauth\model\Role.java
 F:\Tutorials\Riswit\jwtCRUD\backend\JwtCrudBackend\JwtAuthentication\src\main\java\com\riswit\tutorials\jca\jwtauth\security\jwt\JwtAuthEntryPoint.java
+F:\Tutorials\Riswit\jwtCRUD\backend\JwtCrudBackend\JwtAuthentication\src\main\java\com\riswit\tutorials\jca\jwtauth\SpringBootJwtAuthenticationApplication.java
 F:\Tutorials\Riswit\jwtCRUD\backend\JwtCrudBackend\JwtAuthentication\src\main\java\com\riswit\tutorials\jca\jwtauth\message\response\JwtResponse.java
 F:\Tutorials\Riswit\jwtCRUD\backend\JwtCrudBackend\JwtAuthentication\src\main\java\com\riswit\tutorials\jca\jwtauth\model\User.java
 F:\Tutorials\Riswit\jwtCRUD\backend\JwtCrudBackend\JwtAuthentication\src\main\java\com\riswit\tutorials\jca\jwtauth\repository\RoleRepository.java
@@ -13,7 +13,6 @@ F:\Tutorials\Riswit\jwtCRUD\backend\JwtCrudBackend\JwtAuthentication\src\main\ja
 F:\Tutorials\Riswit\jwtCRUD\backend\JwtCrudBackend\JwtAuthentication\src\main\java\com\riswit\tutorials\jca\jwtauth\security\jwt\JwtProvider.java
 F:\Tutorials\Riswit\jwtCRUD\backend\JwtCrudBackend\JwtAuthentication\src\main\java\com\riswit\tutorials\jca\jwtauth\repository\UserRepository.java
 F:\Tutorials\Riswit\jwtCRUD\backend\JwtCrudBackend\JwtAuthentication\src\main\java\com\riswit\tutorials\jca\jwtauth\security\jwt\JwtAuthTokenFilter.java
-F:\Tutorials\Riswit\jwtCRUD\backend\JwtCrudBackend\JwtAuthentication\src\main\java\com\riswit\tutorials\jca\jwtauth\run\JwtAuthApplicationInitializer.java
 F:\Tutorials\Riswit\jwtCRUD\backend\JwtCrudBackend\JwtAuthentication\src\main\java\com\riswit\tutorials\jca\jwtauth\controller\TestRestAPIs.java
 F:\Tutorials\Riswit\jwtCRUD\backend\JwtCrudBackend\JwtAuthentication\src\main\java\com\riswit\tutorials\jca\jwtauth\security\services\UserDetailsServiceImpl.java
 F:\Tutorials\Riswit\jwtCRUD\backend\JwtCrudBackend\JwtAuthentication\src\main\java\com\riswit\tutorials\jca\jwtauth\controller\AuthRestAPIs.java
