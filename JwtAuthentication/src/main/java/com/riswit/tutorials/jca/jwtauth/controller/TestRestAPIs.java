@@ -6,7 +6,6 @@ import org.springframework.web.bind.annotation.*;
 
 @CrossOrigin(origins = "*", maxAge = 3600)
 @RestController
-@RequestMapping("testing")
 public class TestRestAPIs {
 
     @GetMapping("/api/test/user")
@@ -27,7 +26,7 @@ public class TestRestAPIs {
         return ">>> Admin Contents";
     }
 
-    @GetMapping("/prova")
+    @GetMapping("/api/auth/prova")
     public @ResponseBody
     ResponseEntity<String> prova() {
         return ResponseEntity.ok("Perfetto!!");
