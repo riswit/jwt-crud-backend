@@ -2,15 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a9218a3-0718-4f99-9570-7acbf10fd700" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JwtAuthentication/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/config/JwtAuthConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/data/JwtAuthDataConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/run/JwtAuthApplicationInitializer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JwtAuthentication/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JwtAuthentication/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/controller/TestRestAPIs.java" beforeDir="false" afterPath="$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/controller/TestRestAPIs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/SpringBootJwtAuthenticationApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/repository/RoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/repository/RoleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/security/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JwtAuthentication/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JwtAuthentication/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/JwtAuthentication/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bundler/target/bundler-1.0-SNAPSHOT/JwtAuthentication.war" beforeDir="false" afterPath="$PROJECT_DIR$/bundler/target/bundler-1.0-SNAPSHOT/JwtAuthentication.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bundler/target/bundler-1.0-SNAPSHOT/crud.war" beforeDir="false" afterPath="$PROJECT_DIR$/bundler/target/bundler-1.0-SNAPSHOT/crud.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bundler/target/temp/JwtAuthentication.war/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/bundler/target/temp/JwtAuthentication.war/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bundler/target/temp/JwtAuthentication.war/META-INF/maven/com.riswit.tutorials.jca/JwtAuthentication/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bundler/target/temp/JwtAuthentication.war/META-INF/maven/com.riswit.tutorials.jca/JwtAuthentication/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/common-app/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common-data/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/common-data/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crud/target/crud-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/crud/target/crud-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,10 +40,55 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/pom.xml">
+        <entry file="file://$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/message/response/JwtResponse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" selection-start-line="12" selection-end-line="13" />
+            <state relative-caret-position="507">
+              <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/message/response/ResponseMessage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/model/Role.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/controller/TestRestAPIs.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/model/RoleName.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -41,7 +96,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/model/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
+            <state relative-caret-position="969">
               <caret line="57" column="46" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -53,8 +108,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/repository/RoleRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+            <state relative-caret-position="170">
+              <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,10 +118,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/security/services/UserDetailsServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/repository/UserRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
+            <state relative-caret-position="136">
+              <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -75,31 +130,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/SpringBootJwtAuthenticationApplication.java">
+        <entry file="file://$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/config/JwtAuthConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JwtAuthentication/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1377">
-              <caret line="81" column="4" selection-start-line="81" selection-start-column="4" selection-end-line="81" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/controller/TestRestAPIs.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+            <state relative-caret-position="255">
+              <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -108,33 +142,14 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/JwtAuthentication/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/controller/AuthRestAPIs.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="36" selection-start-line="35" selection-end-line="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/security/WebSecurityConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+            <state relative-caret-position="111">
+              <caret line="59" column="48" selection-start-line="59" selection-start-column="48" selection-end-line="59" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1688#1689#0" expanded="true" />
+                <element signature="e#1735#1736#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -169,6 +184,8 @@
       <find>spring-boot-starter-web</find>
       <find>userDetailsService</find>
       <find>jboss</find>
+      <find>hibernate-core</find>
+      <find>entityManagerFactory</find>
     </findStrings>
     <replaceStrings>
       <replace>com.riswit.tutorials.jca.jwtauth</replace>
@@ -187,11 +204,8 @@
         <option value="$PROJECT_DIR$/common/common-app/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/common/common-data/src/main/resources/database.properties" />
         <option value="$PROJECT_DIR$/common/common-app/src/main/java/com/riswit/tutorials/jca/common/app/CommonAppInitializer.java" />
-        <option value="$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/run/JwtAuthApplicationInitializer.java" />
-        <option value="$PROJECT_DIR$/common/common-app/pom.xml" />
         <option value="$PROJECT_DIR$/common/common-data/src/main/java/com/riswit/tutorials/jca/common/data/config/CommonDataConfig.java" />
         <option value="$PROJECT_DIR$/common/common-app/src/main/java/com/riswit/tutorials/jca/common/app/config/CommonConfig.java" />
-        <option value="$PROJECT_DIR$/common/common-data/pom.xml" />
         <option value="$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/controller/AuthRestAPIs.java" />
         <option value="$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/message/request/LoginForm.java" />
         <option value="$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/message/request/SignUpForm.java" />
@@ -200,23 +214,27 @@
         <option value="$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/model/Role.java" />
         <option value="$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/model/RoleName.java" />
         <option value="$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/model/User.java" />
-        <option value="$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/repository/RoleRepository.java" />
-        <option value="$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/repository/UserRepository.java" />
         <option value="$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/security/jwt/JwtAuthEntryPoint.java" />
         <option value="$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/security/jwt/JwtAuthTokenFilter.java" />
         <option value="$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/security/services/UserDetailsServiceImpl.java" />
         <option value="$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/security/services/UserPrinciple.java" />
-        <option value="$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/security/WebSecurityConfig.java" />
         <option value="$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/security/jwt/JwtProvider.java" />
         <option value="$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/SpringBootJwtAuthApplication.java" />
-        <option value="$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/config/JwtAuthConfig.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/bundler/pom.xml" />
-        <option value="$PROJECT_DIR$/JwtAuthentication/pom.xml" />
-        <option value="$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/SpringBootJwtAuthenticationApplication.java" />
         <option value="$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/MyRestApp.java" />
         <option value="$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/controller/TestRestAPIs.java" />
         <option value="$PROJECT_DIR$/JwtAuthentication/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/SpringBootJwtAuthenticationApplication.java" />
+        <option value="$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/data/JwtAuthDataConfig.java" />
+        <option value="$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/run/JwtAuthApplicationInitializer.java" />
+        <option value="$PROJECT_DIR$/common/common-data/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/common/common-app/pom.xml" />
+        <option value="$PROJECT_DIR$/JwtAuthentication/pom.xml" />
+        <option value="$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/security/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/config/JwtAuthConfig.java" />
+        <option value="$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/repository/RoleRepository.java" />
+        <option value="$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/repository/UserRepository.java" />
       </list>
     </option>
   </component>
@@ -239,8 +257,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -436,6 +452,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="jwtauth" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JwtCrudBackend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JwtCrudBackend" type="462c0819:PsiDirectoryNode" />
+              <item name="JwtAuthentication" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jwtauth" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -446,29 +472,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="jwtauth" type="462c0819:PsiDirectoryNode" />
-              <item name="message" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JwtCrudBackend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JwtCrudBackend" type="462c0819:PsiDirectoryNode" />
-              <item name="JwtAuthentication" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jwtauth" type="462c0819:PsiDirectoryNode" />
-              <item name="message" type="462c0819:PsiDirectoryNode" />
-              <item name="request" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JwtCrudBackend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JwtCrudBackend" type="462c0819:PsiDirectoryNode" />
-              <item name="JwtAuthentication" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jwtauth" type="462c0819:PsiDirectoryNode" />
-              <item name="message" type="462c0819:PsiDirectoryNode" />
-              <item name="response" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JwtCrudBackend" type="b2602c69:ProjectViewProjectNode" />
@@ -489,6 +493,16 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="jwtauth" type="462c0819:PsiDirectoryNode" />
               <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JwtCrudBackend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JwtCrudBackend" type="462c0819:PsiDirectoryNode" />
+              <item name="JwtAuthentication" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jwtauth" type="462c0819:PsiDirectoryNode" />
+              <item name="run" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JwtCrudBackend" type="b2602c69:ProjectViewProjectNode" />
@@ -526,15 +540,17 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554843142675" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555205839396" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../spring-rest-services/pom.xml" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -637,7 +653,14 @@
       <option name="project" value="LOCAL" />
       <updated>1554753725373</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="jwtAuth boot">
+      <created>1554922927138</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1554922927138</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">
@@ -651,9 +674,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1294" height="784" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3930308" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32252836" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -661,14 +683,14 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32872504" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32872504" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32872504" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49837926" weight="0.41013825" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49837926" weight="0.5130568" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50162077" side_tool="true" weight="0.32718894" />
       <window_info active="true" anchor="bottom" id="Version Control" order="10" sideWeight="0.49918962" visible="true" weight="0.40706605" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32872504" />
@@ -730,7 +752,8 @@
     <MESSAGE value="updated pom dependency" />
     <MESSAGE value="pom dependency and jwtAuth" />
     <MESSAGE value="jwtAuth" />
-    <option name="LAST_COMMIT_MESSAGE" value="jwtAuth" />
+    <MESSAGE value="jwtAuth boot" />
+    <option name="LAST_COMMIT_MESSAGE" value="jwtAuth boot" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/common/common-data/src/main/java/com/riswit/tutorials/jca/common/dialect/DisableFollowOnLockingPostgresqlDialect.java" />
@@ -754,9 +777,120 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bundler/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.8.RELEASE/spring-security-core-5.0.8.RELEASE.jar!/org/springframework/security/core/userdetails/UserDetailsService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/MyRestApp.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.9.RELEASE/spring-web-5.0.9.RELEASE.jar!/org/springframework/web/bind/annotation/CrossOrigin.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="45" column="12" lean-forward="true" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/security/jwt/JwtAuthTokenFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JwtAuthentication/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/common-app/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="6" selection-start-line="1" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="12" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/SpringBootJwtAuthenticationApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="88" selection-start-line="13" selection-start-column="88" selection-end-line="13" selection-end-column="88" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/common-app/src/main/java/com/riswit/tutorials/jca/common/app/config/CommonConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="50" selection-start-column="8" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/common-app/src/main/java/com/riswit/tutorials/jca/common/app/CommonAppInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/security/jwt/JwtAuthEntryPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/common-data/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="105" selection-start-line="105" selection-end-line="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/common-app/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/security/services/UserPrinciple.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
+        <state relative-caret-position="527">
           <caret line="40" column="40" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -764,10 +898,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/common-app/pom.xml">
+    <entry file="file://$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/security/services/UserDetailsServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+        <state relative-caret-position="204">
+          <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/run/JwtAuthApplicationInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/security/jwt/JwtProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/common-data/src/main/java/com/riswit/tutorials/jca/common/data/config/CommonDataConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/common-data/src/main/resources/database.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="39" selection-start-line="6" selection-end-line="6" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JwtAuthentication/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.5.RELEASE/spring-security-core-5.1.5.RELEASE.jar!/org/springframework/security/authentication/AuthenticationManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/controller/AuthRestAPIs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="39" column="18" lean-forward="true" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/data/JwtAuthDataConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -808,56 +1016,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/repository/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/security/jwt/JwtAuthEntryPoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/security/jwt/JwtAuthTokenFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/security/jwt/JwtProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/common-data/src/main/java/com/riswit/tutorials/jca/common/data/config/CommonDataConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/model/RoleName.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -865,16 +1023,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/run/JwtAuthApplicationInitializer.java" />
-    <entry file="file://$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/config/JwtAuthConfig.java" />
-    <entry file="file://$PROJECT_DIR$/common/common-app/src/main/java/com/riswit/tutorials/jca/common/app/CommonAppInitializer.java">
+    <entry file="file://$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        <state relative-caret-position="969">
+          <caret line="57" column="46" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/common-app/src/main/java/com/riswit/tutorials/jca/common/app/config/CommonConfig.java">
+    <entry file="file://$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/config/JwtAuthConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/model/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/repository/RoleRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/repository/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/controller/TestRestAPIs.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
@@ -884,147 +1083,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/model/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bundler/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/common-data/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="35" selection-start-line="35" selection-end-line="40" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.8.RELEASE/spring-security-core-5.0.8.RELEASE.jar!/org/springframework/security/core/userdetails/UserDetailsService.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/common-data/src/main/resources/database.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/common-app/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="6" selection-start-line="1" selection-end-line="1" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/MyRestApp.java" />
-    <entry file="file://$PROJECT_DIR$/common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="12" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="57" column="46" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/repository/RoleRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/security/services/UserDetailsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/SpringBootJwtAuthenticationApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JwtAuthentication/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1377">
-          <caret line="81" column="4" selection-start-line="81" selection-start-column="4" selection-end-line="81" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/controller/AuthRestAPIs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="36" selection-start-line="35" selection-end-line="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/security/WebSecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+        <state relative-caret-position="111">
+          <caret line="59" column="48" selection-start-line="59" selection-start-column="48" selection-end-line="59" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1688#1689#0" expanded="true" />
+            <element signature="e#1735#1736#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JwtAuthentication/src/main/java/com/riswit/tutorials/jca/jwtauth/controller/TestRestAPIs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JwtAuthentication/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
         </state>
       </provider>
     </entry>
